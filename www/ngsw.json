@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/admin-admin-module-ngfactory.1424a145fcdb0f2010ae.js",
+        "/forum-forum-module-ngfactory.6f901bd29d923e9869f1.js",
+        "/index.html",
+        "/main.78ec7c2647df36a9ced5.js",
+        "/page-page-module-ngfactory.d99358af3e4b67fe8e01.js",
+        "/polyfills.f4a90428e6a07940b7dc.js",
+        "/runtime.cfc16b1464bada777ff3.js",
+        "/styles.c4296a0cdcff63c76091.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/favicon.png",
+        "/assets/icons/icon192.png",
+        "/assets/icons/icon512.png",
+        "/assets/img/code-house.png",
+        "/assets/manifest.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/admin-admin-module-ngfactory.1424a145fcdb0f2010ae.js": "cd675614924dcd0bdfb5aedbf1771e3f53f033d9",
+    "/assets/favicon.png": "8578ecddb0b98f1cfd8ee5e4cdf1a2e4f8be99d0",
+    "/assets/icons/icon192.png": "c14313a653b8bd3fbda3e81401418370502971ec",
+    "/assets/icons/icon512.png": "044f91f1cbcebea72f4ef892c594587a32091f5a",
+    "/assets/img/code-house.png": "8980038b742c6092f58fe4896581da234d9bd46f",
+    "/assets/manifest.json": "5504362c4218fd2839be7bf6d67fd6aa5e214f72",
+    "/forum-forum-module-ngfactory.6f901bd29d923e9869f1.js": "9da496d70f8eec83680974e7bef6a61ddb52ccbd",
+    "/index.html": "1dcf793694f53ea4a0e3ed302502654c37d00df1",
+    "/main.78ec7c2647df36a9ced5.js": "033e44c0254da6ddac4eacf1605e02d5f6d37c0d",
+    "/page-page-module-ngfactory.d99358af3e4b67fe8e01.js": "dcb3093dc25c0e36cf45033df951c89434d24c0c",
+    "/polyfills.f4a90428e6a07940b7dc.js": "5ebbf2d6f84b840ab0324eff5a4f509863daecca",
+    "/runtime.cfc16b1464bada777ff3.js": "420eb95711feca0ca44dd395cab3e4f3d14ce54c",
+    "/styles.c4296a0cdcff63c76091.css": "c8c3c62b21525092152c9c12978e04c8481df025"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
